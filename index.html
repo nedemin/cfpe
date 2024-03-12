@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_54752d73fe47a42ac3edfd4cb579381a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    <h1 align="center" style="font-size:22px; position:fixed; top:10px; left:50%; transform: translateX(-50%); z-index:1000; background-color:white; padding:5px;"><b>Club Ford Puma España</b></h1>
+    
+            <div class="folium-map" id="map_54752d73fe47a42ac3edfd4cb579381a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_54752d73fe47a42ac3edfd4cb579381a = L.map(
+                "map_54752d73fe47a42ac3edfd4cb579381a",
+                {
+                    center: [39.3260685, -4.8379791],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fa93dd03a00bd92532721d749900de48 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_fa93dd03a00bd92532721d749900de48.addTo(map_54752d73fe47a42ac3edfd4cb579381a);
+        
+    
+            var marker_4434c5e48500f8ba13f5b2f756abf620 = L.marker(
+                [38.3436365, -0.4881708],
+                {}
+            ).addTo(map_54752d73fe47a42ac3edfd4cb579381a);
+        
+    
+            var div_icon_4dd152a9efd21d8527809526507af383 = L.divIcon({"className": "empty", "html": "\u003cimg src=\"./pin_puma_rojo.png\" style=\"width: 25px; height: 12px;\"\u003e"});
+            marker_4434c5e48500f8ba13f5b2f756abf620.setIcon(div_icon_4dd152a9efd21d8527809526507af383);
+        
+    
+        var popup_b56878ca74ecf2a2d811553240012146 = L.popup({"maxWidth": 200, "minWidth": 100});
+
+        
+            
+                var html_7acc7f416ec3ce64d53f0eae7c680d36 = $(`<div id="html_7acc7f416ec3ce64d53f0eae7c680d36" style="width: 100.0%; height: 100.0%;"><b>Alicante</b> (2):<br>N/A (2):<br>&nbsp;&nbsp;Puma 1.7: 2</div>`)[0];
+                popup_b56878ca74ecf2a2d811553240012146.setContent(html_7acc7f416ec3ce64d53f0eae7c680d36);
+            
+        
+
+        marker_4434c5e48500f8ba13f5b2f756abf620.bindPopup(popup_b56878ca74ecf2a2d811553240012146)
+        ;
+
+        
+    
+    
+            var marker_c5f0761f11bfe418ef124c6abe7227b1 = L.marker(
+                [41.9302021, 2.2545943],
+                {}
+            ).addTo(map_54752d73fe47a42ac3edfd4cb579381a);
+        
+    
+            var div_icon_81211ffb3dcd4b576f6585635298b81f = L.divIcon({"className": "empty", "html": "\u003cimg src=\"./pin_puma_rojo.png\" style=\"width: 25px; height: 12px;\"\u003e"});
+            marker_c5f0761f11bfe418ef124c6abe7227b1.setIcon(div_icon_81211ffb3dcd4b576f6585635298b81f);
+        
+    
+        var popup_c2ba8c015fd8905e3d802d4bf77ab437 = L.popup({"maxWidth": 200, "minWidth": 100});
+
+        
+            
+                var html_8fe5705a69b934717b120320125687d5 = $(`<div id="html_8fe5705a69b934717b120320125687d5" style="width: 100.0%; height: 100.0%;"><b>Vic</b> (1):<br>N/A (1):<br>&nbsp;&nbsp;Puma 1.7: 1</div>`)[0];
+                popup_c2ba8c015fd8905e3d802d4bf77ab437.setContent(html_8fe5705a69b934717b120320125687d5);
+            
+        
+
+        marker_c5f0761f11bfe418ef124c6abe7227b1.bindPopup(popup_c2ba8c015fd8905e3d802d4bf77ab437)
+        ;
+
+        
+    
+    
+            var marker_92fc8937e319ef0f46a6ffdf3a883c65 = L.marker(
+                [43.4620412, -3.8099719],
+                {}
+            ).addTo(map_54752d73fe47a42ac3edfd4cb579381a);
+        
+    
+            var div_icon_1135d68b6a620e21a0bd5a181c221d40 = L.divIcon({"className": "empty", "html": "\u003cimg src=\"./pin_puma_rojo.png\" style=\"width: 25px; height: 12px;\"\u003e"});
+            marker_92fc8937e319ef0f46a6ffdf3a883c65.setIcon(div_icon_1135d68b6a620e21a0bd5a181c221d40);
+        
+    
+        var popup_85869ca13b5b2892d227b58225e93d8c = L.popup({"maxWidth": 200, "minWidth": 100});
+
+        
+            
+                var html_6f53e4097c48cb008bc38ffd496143bd = $(`<div id="html_6f53e4097c48cb008bc38ffd496143bd" style="width: 100.0%; height: 100.0%;"><b>Santander </b> (1):<br>N/A (1):<br>&nbsp;&nbsp;Puma 1.7: 1</div>`)[0];
+                popup_85869ca13b5b2892d227b58225e93d8c.setContent(html_6f53e4097c48cb008bc38ffd496143bd);
+            
+        
+
+        marker_92fc8937e319ef0f46a6ffdf3a883c65.bindPopup(popup_85869ca13b5b2892d227b58225e93d8c)
+        ;
+
+        
+    
+    
+            var marker_a85887918a8552d5e0b37a6115bbc930 = L.marker(
+                [39.190758, -0.4357471],
+                {}
+            ).addTo(map_54752d73fe47a42ac3edfd4cb579381a);
+        
+    
+            var div_icon_385d82bd38bd3658ad7bd60491acdd50 = L.divIcon({"className": "empty", "html": "\u003cimg src=\"./pin_puma_rojo.png\" style=\"width: 25px; height: 12px;\"\u003e"});
+            marker_a85887918a8552d5e0b37a6115bbc930.setIcon(div_icon_385d82bd38bd3658ad7bd60491acdd50);
+        
+    
+        var popup_12501dd169e3a163ddecd58ec3277cae = L.popup({"maxWidth": 200, "minWidth": 100});
+
+        
+            
+                var html_b60516151601e17c9c3b9ab88d0da4ef = $(`<div id="html_b60516151601e17c9c3b9ab88d0da4ef" style="width: 100.0%; height: 100.0%;"><b>Algemesí</b> (1):<br>N/A (1):<br>&nbsp;&nbsp;Puma 1.7: 1</div>`)[0];
+                popup_12501dd169e3a163ddecd58ec3277cae.setContent(html_b60516151601e17c9c3b9ab88d0da4ef);
+            
+        
+
+        marker_a85887918a8552d5e0b37a6115bbc930.bindPopup(popup_12501dd169e3a163ddecd58ec3277cae)
+        ;
+
+        
+    
+    
+            var marker_1f30aa28abdb017349afaaf772b5fa0d = L.marker(
+                [40.4167047, -3.7035825],
+                {}
+            ).addTo(map_54752d73fe47a42ac3edfd4cb579381a);
+        
+    
+            var div_icon_ab3464e8637ee7c6bf30ba4cc745da60 = L.divIcon({"className": "empty", "html": "\u003cimg src=\"./pin_puma_rojo.png\" style=\"width: 25px; height: 12px;\"\u003e"});
+            marker_1f30aa28abdb017349afaaf772b5fa0d.setIcon(div_icon_ab3464e8637ee7c6bf30ba4cc745da60);
+        
+    
+        var popup_624dee34bcbc114abdd4a9c349be53c6 = L.popup({"maxWidth": 200, "minWidth": 100});
+
+        
+            
+                var html_36e4df7ecb8cd45a279383f3a341707f = $(`<div id="html_36e4df7ecb8cd45a279383f3a341707f" style="width: 100.0%; height: 100.0%;"><b>Madrid</b> (4):<br>N/A (3):<br>&nbsp;&nbsp;Puma 1.7: 3<br>Rojo (1):<br>&nbsp;&nbsp;Puma 1.4: 1</div>`)[0];
+                popup_624dee34bcbc114abdd4a9c349be53c6.setContent(html_36e4df7ecb8cd45a279383f3a341707f);
+            
+        
+
+        marker_1f30aa28abdb017349afaaf772b5fa0d.bindPopup(popup_624dee34bcbc114abdd4a9c349be53c6)
+        ;
+
+        
+    
+    
+            var marker_9ed972117a0355a01e896b5367d7aaf8 = L.marker(
+                [42.343926, -3.696977],
+                {}
+            ).addTo(map_54752d73fe47a42ac3edfd4cb579381a);
+        
+    
+            var div_icon_c241d4157cf40702b16fa840f414f2d7 = L.divIcon({"className": "empty", "html": "\u003cimg src=\"./pin_puma_rojo.png\" style=\"width: 25px; height: 12px;\"\u003e"});
+            marker_9ed972117a0355a01e896b5367d7aaf8.setIcon(div_icon_c241d4157cf40702b16fa840f414f2d7);
+        
+    
+        var popup_d7b01cd62775590999662bf55f07cadd = L.popup({"maxWidth": 200, "minWidth": 100});
+
+        
+            
+                var html_5e48b07ad416427cd8b3f29816fde698 = $(`<div id="html_5e48b07ad416427cd8b3f29816fde698" style="width: 100.0%; height: 100.0%;"><b>Burgos</b> (1):<br>N/A (1):<br>&nbsp;&nbsp;Puma 1.7: 1</div>`)[0];
+                popup_d7b01cd62775590999662bf55f07cadd.setContent(html_5e48b07ad416427cd8b3f29816fde698);
+            
+        
+
+        marker_9ed972117a0355a01e896b5367d7aaf8.bindPopup(popup_d7b01cd62775590999662bf55f07cadd)
+        ;
+
+        
+    
+    
+            var marker_ff1fad2890406587a45aabdc80b649d1 = L.marker(
+                [-30.2656523, -61.3974909],
+                {}
+            ).addTo(map_54752d73fe47a42ac3edfd4cb579381a);
+        
+    
+            var div_icon_8dcf68891fe137ab1c92925a1946a377 = L.divIcon({"className": "empty", "html": "\u003cimg src=\"./pin_puma_rojo.png\" style=\"width: 25px; height: 12px;\"\u003e"});
+            marker_ff1fad2890406587a45aabdc80b649d1.setIcon(div_icon_8dcf68891fe137ab1c92925a1946a377);
+        
+    
+        var popup_1add6b93583f076960bf21895fc8d622 = L.popup({"maxWidth": 200, "minWidth": 100});
+
+        
+            
+                var html_64b0eeee84f01297354d6642f5d03cf7 = $(`<div id="html_64b0eeee84f01297354d6642f5d03cf7" style="width: 100.0%; height: 100.0%;"><b>Portugalete</b> (1):<br>N/A (1):<br>&nbsp;&nbsp;Puma 1.6: 1</div>`)[0];
+                popup_1add6b93583f076960bf21895fc8d622.setContent(html_64b0eeee84f01297354d6642f5d03cf7);
+            
+        
+
+        marker_ff1fad2890406587a45aabdc80b649d1.bindPopup(popup_1add6b93583f076960bf21895fc8d622)
+        ;
+
+        
+    
+    
+            var marker_ce12ee80bb4483065ea26e46808237c9 = L.marker(
+                [41.6521342, -0.8809428],
+                {}
+            ).addTo(map_54752d73fe47a42ac3edfd4cb579381a);
+        
+    
+            var div_icon_8be0bc0bbb1aeec140ec6a457563de78 = L.divIcon({"className": "empty", "html": "\u003cimg src=\"./pin_puma_rojo.png\" style=\"width: 25px; height: 12px;\"\u003e"});
+            marker_ce12ee80bb4483065ea26e46808237c9.setIcon(div_icon_8be0bc0bbb1aeec140ec6a457563de78);
+        
+    
+        var popup_ab98136f6bf1348c5be2eb01170a4364 = L.popup({"maxWidth": 200, "minWidth": 100});
+
+        
+            
+                var html_8cf213d7fe20775fd18618a58b0704aa = $(`<div id="html_8cf213d7fe20775fd18618a58b0704aa" style="width: 100.0%; height: 100.0%;"><b>Zaragoza</b> (1):<br>N/A (1):<br>&nbsp;&nbsp;Puma 1.7: 1</div>`)[0];
+                popup_ab98136f6bf1348c5be2eb01170a4364.setContent(html_8cf213d7fe20775fd18618a58b0704aa);
+            
+        
+
+        marker_ce12ee80bb4483065ea26e46808237c9.bindPopup(popup_ab98136f6bf1348c5be2eb01170a4364)
+        ;
+
+        
+    
+    
+            var marker_5f6acfdd9e0655e4b3ffd049971626e2 = L.marker(
+                [41.3828939, 2.1774322],
+                {}
+            ).addTo(map_54752d73fe47a42ac3edfd4cb579381a);
+        
+    
+            var div_icon_011d0cb89456ac30c2f80a131765021f = L.divIcon({"className": "empty", "html": "\u003cimg src=\"./pin_puma_rojo.png\" style=\"width: 25px; height: 12px;\"\u003e"});
+            marker_5f6acfdd9e0655e4b3ffd049971626e2.setIcon(div_icon_011d0cb89456ac30c2f80a131765021f);
+        
+    
+        var popup_107f7c028c97d6a304c46e0ae623c08f = L.popup({"maxWidth": 200, "minWidth": 100});
+
+        
+            
+                var html_e41cd8cc9733eb7b0068eed64822f857 = $(`<div id="html_e41cd8cc9733eb7b0068eed64822f857" style="width: 100.0%; height: 100.0%;"><b>Barcelona</b> (3):<br>N/A (3):<br>&nbsp;&nbsp;Puma 1,6: 1<br>&nbsp;&nbsp;Puma 1.4: 1<br>&nbsp;&nbsp;Puma 1.7: 1</div>`)[0];
+                popup_107f7c028c97d6a304c46e0ae623c08f.setContent(html_e41cd8cc9733eb7b0068eed64822f857);
+            
+        
+
+        marker_5f6acfdd9e0655e4b3ffd049971626e2.bindPopup(popup_107f7c028c97d6a304c46e0ae623c08f)
+        ;
+
+        
+    
+    
+            var marker_ba035e1336ad805433e02d8cc7413aa1 = L.marker(
+                [38.88964355, -6.980142450723942],
+                {}
+            ).addTo(map_54752d73fe47a42ac3edfd4cb579381a);
+        
+    
+            var div_icon_ac42a8179274b3e03ff26aadaa0dfc0c = L.divIcon({"className": "empty", "html": "\u003cimg src=\"./pin_puma_rojo.png\" style=\"width: 25px; height: 12px;\"\u003e"});
+            marker_ba035e1336ad805433e02d8cc7413aa1.setIcon(div_icon_ac42a8179274b3e03ff26aadaa0dfc0c);
+        
+    
+        var popup_f6f05454f503d167b650a235588721e6 = L.popup({"maxWidth": 200, "minWidth": 100});
+
+        
+            
+                var html_93f8fdaff17eb1c6ab15d9495032304d = $(`<div id="html_93f8fdaff17eb1c6ab15d9495032304d" style="width: 100.0%; height: 100.0%;"><b>Badajoz</b> (1):<br>N/A (1):<br>&nbsp;&nbsp;Puma 1.7: 1</div>`)[0];
+                popup_f6f05454f503d167b650a235588721e6.setContent(html_93f8fdaff17eb1c6ab15d9495032304d);
+            
+        
+
+        marker_ba035e1336ad805433e02d8cc7413aa1.bindPopup(popup_f6f05454f503d167b650a235588721e6)
+        ;
+
+        
+    
+    
+            var marker_3d38ab530ccafd9749c479cb99087b96 = L.marker(
+                [43.1417601, -2.9622358],
+                {}
+            ).addTo(map_54752d73fe47a42ac3edfd4cb579381a);
+        
+    
+            var div_icon_88bb8ae4f22e98be3d28ccf9f408c725 = L.divIcon({"className": "empty", "html": "\u003cimg src=\"./pin_puma_rojo.png\" style=\"width: 25px; height: 12px;\"\u003e"});
+            marker_3d38ab530ccafd9749c479cb99087b96.setIcon(div_icon_88bb8ae4f22e98be3d28ccf9f408c725);
+        
+    
+        var popup_c7270e653105446917d092772e85c0b0 = L.popup({"maxWidth": 200, "minWidth": 100});
+
+        
+            
+                var html_47cb9a42ab8ffb6dc6061ce4cdb4a137 = $(`<div id="html_47cb9a42ab8ffb6dc6061ce4cdb4a137" style="width: 100.0%; height: 100.0%;"><b>Llodio</b> (1):<br>N/A (1):<br>&nbsp;&nbsp;Puma 1.4: 1</div>`)[0];
+                popup_c7270e653105446917d092772e85c0b0.setContent(html_47cb9a42ab8ffb6dc6061ce4cdb4a137);
+            
+        
+
+        marker_3d38ab530ccafd9749c479cb99087b96.bindPopup(popup_c7270e653105446917d092772e85c0b0)
+        ;
+
+        
+    
+    
+            var marker_203c842e7a5c9072d4f6c321359a5b67 = L.marker(
+                [43.238482000000005, -2.85163163999482],
+                {}
+            ).addTo(map_54752d73fe47a42ac3edfd4cb579381a);
+        
+    
+            var div_icon_726327acff3834cf3fd4472675d60c22 = L.divIcon({"className": "empty", "html": "\u003cimg src=\"./pin_puma_rojo.png\" style=\"width: 25px; height: 12px;\"\u003e"});
+            marker_203c842e7a5c9072d4f6c321359a5b67.setIcon(div_icon_726327acff3834cf3fd4472675d60c22);
+        
+    
+        var popup_98503464d064cfa839116725cd15112f = L.popup({"maxWidth": 200, "minWidth": 100});
+
+        
+            
+                var html_e7f9a54a1394b9cbaf62f09324cf6c50 = $(`<div id="html_e7f9a54a1394b9cbaf62f09324cf6c50" style="width: 100.0%; height: 100.0%;"><b>Vizcaya</b> (1):<br>N/A (1):<br>&nbsp;&nbsp;Puma 1.7: 1</div>`)[0];
+                popup_98503464d064cfa839116725cd15112f.setContent(html_e7f9a54a1394b9cbaf62f09324cf6c50);
+            
+        
+
+        marker_203c842e7a5c9072d4f6c321359a5b67.bindPopup(popup_98503464d064cfa839116725cd15112f)
+        ;
+
+        
+    
+    
+            var marker_4851cdb1d40787628a9ece6d8e33c24b = L.marker(
+                [28.2935785, -16.621447121144122],
+                {}
+            ).addTo(map_54752d73fe47a42ac3edfd4cb579381a);
+        
+    
+            var div_icon_9a9a9bcaaf95952f0e8f6abca3ce1b1b = L.divIcon({"className": "empty", "html": "\u003cimg src=\"./pin_puma_rojo.png\" style=\"width: 25px; height: 12px;\"\u003e"});
+            marker_4851cdb1d40787628a9ece6d8e33c24b.setIcon(div_icon_9a9a9bcaaf95952f0e8f6abca3ce1b1b);
+        
+    
+        var popup_39bf8e90956e344c299411b9a3c1074b = L.popup({"maxWidth": 200, "minWidth": 100});
+
+        
+            
+                var html_a9eadbe198813301494b11d4ab92bcda = $(`<div id="html_a9eadbe198813301494b11d4ab92bcda" style="width: 100.0%; height: 100.0%;"><b>Tenerife</b> (1):<br>N/A (1):<br>&nbsp;&nbsp;Puma 1.7: 1</div>`)[0];
+                popup_39bf8e90956e344c299411b9a3c1074b.setContent(html_a9eadbe198813301494b11d4ab92bcda);
+            
+        
+
+        marker_4851cdb1d40787628a9ece6d8e33c24b.bindPopup(popup_39bf8e90956e344c299411b9a3c1074b)
+        ;
+
+        
+    
+    
+            var marker_fd9c852e58607264fc1e19945f0cd69d = L.marker(
+                [41.1172364, 1.2546057],
+                {}
+            ).addTo(map_54752d73fe47a42ac3edfd4cb579381a);
+        
+    
+            var div_icon_3562b8dedafd2410866f8c86b7e719c6 = L.divIcon({"className": "empty", "html": "\u003cimg src=\"./pin_puma_rojo.png\" style=\"width: 25px; height: 12px;\"\u003e"});
+            marker_fd9c852e58607264fc1e19945f0cd69d.setIcon(div_icon_3562b8dedafd2410866f8c86b7e719c6);
+        
+    
+        var popup_7cd332421e7f8c0c419f7fc1e8bea36a = L.popup({"maxWidth": 200, "minWidth": 100});
+
+        
+            
+                var html_94d72858ac080d3eedae13ad4bad75d3 = $(`<div id="html_94d72858ac080d3eedae13ad4bad75d3" style="width: 100.0%; height: 100.0%;"><b>Tarragona</b> (1):<br>N/A (1):<br>&nbsp;&nbsp;Puma 1.7: 1</div>`)[0];
+                popup_7cd332421e7f8c0c419f7fc1e8bea36a.setContent(html_94d72858ac080d3eedae13ad4bad75d3);
+            
+        
+
+        marker_fd9c852e58607264fc1e19945f0cd69d.bindPopup(popup_7cd332421e7f8c0c419f7fc1e8bea36a)
+        ;
+
+        
+    
+    
+            var marker_c2d2c0fb44ef913e0dd41c3a2da44706 = L.marker(
+                [39.4697065, -0.3763353],
+                {}
+            ).addTo(map_54752d73fe47a42ac3edfd4cb579381a);
+        
+    
+            var div_icon_cf7f81587e7a9e947ab5507d73c0b13d = L.divIcon({"className": "empty", "html": "\u003cimg src=\"./pin_puma_rojo.png\" style=\"width: 25px; height: 12px;\"\u003e"});
+            marker_c2d2c0fb44ef913e0dd41c3a2da44706.setIcon(div_icon_cf7f81587e7a9e947ab5507d73c0b13d);
+        
+    
+        var popup_1522d441d4ad518adb03666b440bda5f = L.popup({"maxWidth": 200, "minWidth": 100});
+
+        
+            
+                var html_9f55cc7872ec91f114f79e8d500e58f2 = $(`<div id="html_9f55cc7872ec91f114f79e8d500e58f2" style="width: 100.0%; height: 100.0%;"><b>Valencia</b> (2):<br>N/A (2):<br>&nbsp;&nbsp;Puma 1.7: 2</div>`)[0];
+                popup_1522d441d4ad518adb03666b440bda5f.setContent(html_9f55cc7872ec91f114f79e8d500e58f2);
+            
+        
+
+        marker_c2d2c0fb44ef913e0dd41c3a2da44706.bindPopup(popup_1522d441d4ad518adb03666b440bda5f)
+        ;
+
+        
+    
+    
+            var marker_27e5581467c699dd5ebdba861bd04d73 = L.marker(
+                [42.409632200000004, -4.616100410293067],
+                {}
+            ).addTo(map_54752d73fe47a42ac3edfd4cb579381a);
+        
+    
+            var div_icon_29ed85ffe4fa3ccd4050101576c96fe6 = L.divIcon({"className": "empty", "html": "\u003cimg src=\"./pin_puma_rojo.png\" style=\"width: 25px; height: 12px;\"\u003e"});
+            marker_27e5581467c699dd5ebdba861bd04d73.setIcon(div_icon_29ed85ffe4fa3ccd4050101576c96fe6);
+        
+    
+        var popup_1b2614ec3044f985736c1caad2763bb8 = L.popup({"maxWidth": 200, "minWidth": 100});
+
+        
+            
+                var html_ed32e547760207768c677afe6315db91 = $(`<div id="html_ed32e547760207768c677afe6315db91" style="width: 100.0%; height: 100.0%;"><b>Palencia</b> (1):<br>N/A (1):<br>&nbsp;&nbsp;Puma 1.7: 1</div>`)[0];
+                popup_1b2614ec3044f985736c1caad2763bb8.setContent(html_ed32e547760207768c677afe6315db91);
+            
+        
+
+        marker_27e5581467c699dd5ebdba861bd04d73.bindPopup(popup_1b2614ec3044f985736c1caad2763bb8)
+        ;
+
+        
+    
+    
+            var marker_2f907355bfb2a93bf68eba9d3d5d8af4 = L.marker(
+                [39.5695818, 2.6500745],
+                {}
+            ).addTo(map_54752d73fe47a42ac3edfd4cb579381a);
+        
+    
+            var div_icon_0537c31fd085a18f25f56f1879c7b57e = L.divIcon({"className": "empty", "html": "\u003cimg src=\"./pin_puma_rojo.png\" style=\"width: 25px; height: 12px;\"\u003e"});
+            marker_2f907355bfb2a93bf68eba9d3d5d8af4.setIcon(div_icon_0537c31fd085a18f25f56f1879c7b57e);
+        
+    
+        var popup_5a49d845cc1c7f7076b70462bc0c6295 = L.popup({"maxWidth": 200, "minWidth": 100});
+
+        
+            
+                var html_e3da5fe1ae98dcc92194523079ed8dd3 = $(`<div id="html_e3da5fe1ae98dcc92194523079ed8dd3" style="width: 100.0%; height: 100.0%;"><b>Palma de Mallorca</b> (1):<br>N/A (1):<br>&nbsp;&nbsp;Puma ex 1.7: 1</div>`)[0];
+                popup_5a49d845cc1c7f7076b70462bc0c6295.setContent(html_e3da5fe1ae98dcc92194523079ed8dd3);
+            
+        
+
+        marker_2f907355bfb2a93bf68eba9d3d5d8af4.bindPopup(popup_5a49d845cc1c7f7076b70462bc0c6295)
+        ;
+
+        
+    
+    
+            var marker_6a986e881faf7be4cd0d1e55d617b30f = L.marker(
+                [37.3886303, -5.9953403],
+                {}
+            ).addTo(map_54752d73fe47a42ac3edfd4cb579381a);
+        
+    
+            var div_icon_ca87e0cc7063991c3069cc0d1668c916 = L.divIcon({"className": "empty", "html": "\u003cimg src=\"./pin_puma_rojo.png\" style=\"width: 25px; height: 12px;\"\u003e"});
+            marker_6a986e881faf7be4cd0d1e55d617b30f.setIcon(div_icon_ca87e0cc7063991c3069cc0d1668c916);
+        
+    
+        var popup_e2be722a19b6484d543dba2d9ddfc2e0 = L.popup({"maxWidth": 200, "minWidth": 100});
+
+        
+            
+                var html_1c2ccc3c44c4c974d3aa519dfc6004f7 = $(`<div id="html_1c2ccc3c44c4c974d3aa519dfc6004f7" style="width: 100.0%; height: 100.0%;"><b>Sevilla</b> (1):<br>N/A (1):<br>&nbsp;&nbsp;Puma 1.7: 1</div>`)[0];
+                popup_e2be722a19b6484d543dba2d9ddfc2e0.setContent(html_1c2ccc3c44c4c974d3aa519dfc6004f7);
+            
+        
+
+        marker_6a986e881faf7be4cd0d1e55d617b30f.bindPopup(popup_e2be722a19b6484d543dba2d9ddfc2e0)
+        ;
+
+        
+    
+    
+            var marker_cf5c408307905652af8ef7c66b9733b7 = L.marker(
+                [38.8408382, 0.1061105],
+                {}
+            ).addTo(map_54752d73fe47a42ac3edfd4cb579381a);
+        
+    
+            var div_icon_da318421d4c2e9ee021f5a85bf65215e = L.divIcon({"className": "empty", "html": "\u003cimg src=\"./pin_puma_rojo.png\" style=\"width: 25px; height: 12px;\"\u003e"});
+            marker_cf5c408307905652af8ef7c66b9733b7.setIcon(div_icon_da318421d4c2e9ee021f5a85bf65215e);
+        
+    
+        var popup_763d30b7ae3a31b8d323a8e2f1a0268c = L.popup({"maxWidth": 200, "minWidth": 100});
+
+        
+            
+                var html_3f8cdfc404a980572d2f838d08d2d133 = $(`<div id="html_3f8cdfc404a980572d2f838d08d2d133" style="width: 100.0%; height: 100.0%;"><b>denia</b> (1):<br>N/A (1):<br>&nbsp;&nbsp;Puma 1.7: 1</div>`)[0];
+                popup_763d30b7ae3a31b8d323a8e2f1a0268c.setContent(html_3f8cdfc404a980572d2f838d08d2d133);
+            
+        
+
+        marker_cf5c408307905652af8ef7c66b9733b7.bindPopup(popup_763d30b7ae3a31b8d323a8e2f1a0268c)
+        ;
+
+        
+    
+</script>
+</html>
